@@ -1,9 +1,9 @@
 let num=123;
 let str="" + 123;
-let sum=0;
-for(let i=str.length-1;i>0;i--)
+let sum="";
+for(let i=str.length-1;i>=0;i--)
   
   {
-   sum=sum+str[i]+" "
+   sum=sum+str[i];
   }
 console.log(sum)
